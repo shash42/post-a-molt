@@ -1,0 +1,14 @@
+# Local agent instructions
+agent.md
+scripts/moltbot_test.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+
+# OS
+.DS_Store
