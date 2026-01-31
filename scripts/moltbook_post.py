@@ -61,7 +61,7 @@ def main() -> None:
     parser.add_argument("--api-key", help="API key (overrides env/file)")
     parser.add_argument("--submolt", default="general", help="Submolt name (default: general)")
     parser.add_argument("--title", required=True, help="Post title")
-    parser.add_argument("--content", help="Text content")
+    parser.add_argument("--content", required=True, help="Text content")
     args = parser.parse_args()
 
     api_key = load_api_key(args.api_key)
